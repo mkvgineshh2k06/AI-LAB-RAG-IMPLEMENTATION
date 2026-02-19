@@ -1,0 +1,124 @@
+API Documentation Version 2.0
+Base URL: https://api.techcorp.com/v2
+
+1. Authentication
+Every API request must include authentication using a Bearer Token.
+To obtain a token, send a POST request to /auth/token with your client_id and client_secret.
+
+Example Request:
+POST /auth/token
+{
+  "client_id": "your_id",
+  "client_secret": "your_secret"
+}
+
+Example Response:
+{
+  "access_token": "eyJhbGciOiJIUz...",
+  "expires_in": 3600
+}
+
+Include this header in all subsequent requests:
+Authorization: Bearer <your_token>
+
+2. User Management
+GET /users
+Returns a paginated list of users. Pagination can be controlled using the 'page' and 'limit' query parameters.
+
+POST /users
+Creates a new user account. Required fields: 'email', 'password', 'role'. The 'role' value must be either 'admin' or 'member'.
+
+Example Payload:
+{
+  "email": "user@example.com",
+  "password": "SecurePassword123!",
+  "role": "member"
+}
+
+PUT /users/{id}
+Updates existing user information. Supported fields for update include 'email' and 'role'.
+
+DELETE /users/{id}
+Permanently removes a user. This action requires administrator privileges.
+
+3. Product Catalog
+GET /products
+Returns a list of available products.
+
+Query Parameters:
+- category: Filter products by category (e.g., electronics, books)
+- min_price: Minimum price filter
+- max_price: Maximum price filter
+
+GET /products/{id}
+Retrieves detailed information for a specific product.
+
+POST /products
+Creates a new product entry.
+{
+  "name": "Super Widget",
+  "price": 99.99,
+  "category": "electronics"
+}
+
+4. Search API
+GET /search
+Performs a fuzzy search across users and products.
+
+Query Parameters:
+- q: Search keyword (required)
+- type: 'product' or 'user' (optional; defaults to both)
+
+Example:
+GET /search?q=widget&type=product
+
+5. Webhooks
+You may subscribe to system events such as 'user.created' or 'payment.succeeded'.
+To register a webhook endpoint, send a POST request to /webhooks.
+
+Security:
+Webhook requests include a signature in the 'X-Signature' header.
+This signature is an HMAC-SHA256 hash of the payload generated using your webhook secret.
+
+Sample Code (Python):
+import hmac
+import hashlib
+
+def verify_signature(payload, secret, signature):
+    computed = hmac.new(secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+    return hmac.compare_digest(computed, signature)
+
+6. Rate Limiting
+The API permits up to 100 requests per minute per IP address.
+If this limit is exceeded, the server returns a 429 Too Many Requests response.
+
+Headers:
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 4
+X-RateLimit-Reset: 1678900000
+
+7. Error Handling
+Errors are returned as JSON objects containing 'error' and 'message' fields.
+
+Common Error Codes:
+400 Bad Request: Invalid request parameters.
+401 Unauthorized: Missing or invalid authentication token.
+403 Forbidden: Insufficient access permissions.
+404 Not Found: Requested resource could not be located.
+500 Internal Server Error: Unexpected server-side failure.
+
+8. WebSocket API
+Endpoint: wss://stream.techcorp.com/v2/events
+
+Connect using the Authorization header with your Bearer token.
+
+Events available:
+- market_update: Real-time pricing information.
+- system_status: Notifications about maintenance or outages.
+
+9. Client SDKs
+Official SDKs are available for:
+
+- Python (pip install techcorp-sdk)
+- Node.js (npm install techcorp-sdk)
+- Go (go get github.com/techcorp/sdk-go)

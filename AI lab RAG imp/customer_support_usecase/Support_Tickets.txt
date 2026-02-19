@@ -1,0 +1,47 @@
+Ticket ID: 1001
+Issue: User unable to sign in. Displays error “Invalid Credentials”.
+Resolution: The user had forgotten their password. Guided the user to use the “Forgot Password” option on the login page. Confirmed that login was successful after resetting the password.
+
+Ticket ID: 1002
+Issue: Payment unsuccessful with error “Code 502”.
+Resolution: Error “Code 502” signifies a gateway timeout. Verified that the payment gateway was temporarily unavailable due to maintenance. Recommended the user try again after 30 minutes. Payment completed successfully afterward.
+
+Ticket ID: 1003
+Issue: Application crashes immediately on startup (iOS 16).
+Resolution: Identified as a known issue in version 3.1.2. Recommended updating to version 3.1.3 which includes a fix. User upgraded the app and confirmed the problem was resolved.
+
+Ticket ID: 1004
+Issue: Request for refund after subscription cancellation.
+Resolution: The refund request was made within the 14-day cooling-off period. Issued a full refund through Stripe and sent a confirmation email to the user.
+
+Ticket ID: 1005
+Issue: Request to add dark mode feature.
+Resolution: Expressed appreciation for the suggestion. Logged the feature request in the product roadmap and informed the user that Dark Mode is scheduled for release in Q3.
+
+Ticket ID: 1006
+Issue: Data export process timing out.
+Resolution: The user’s dataset exceeded 1GB, causing the standard export to fail within the 30-second limit. Initiated a manual background export and emailed the download link upon completion.
+
+Ticket ID: 1007
+Issue: API rate limit being exceeded repeatedly.
+Resolution: User was making requests every second. Clarified that the allowed limit is 100 requests per minute. Recommended implementing exponential backoff or switching to Webhooks instead of continuous polling.
+
+Ticket ID: 1008
+Issue: Mobile application not synchronizing data while offline.
+Resolution: The Android device had “Data Saver” mode enabled, restricting background data. Advised the user to whitelist the app in Data Saver settings. Synchronization resumed immediately afterward.
+
+Ticket ID: 1009
+Issue: Unable to update billing address.
+Resolution: The system’s address validator rejected the postal code format. Manually bypassed validation for this edge case in the admin panel and successfully updated the address.
+
+Ticket ID: 1010
+Issue: “Account Locked” notification displayed.
+Resolution: Security system detected suspicious login attempts from a new IP address in Russia. User confirmed they were traveling. Account was unlocked and user was advised to enable two-factor authentication for added security.
+
+Ticket ID: 1011
+Issue: Invoice email not received.
+Resolution: Email delivery logs showed the invoice was sent but filtered into Spam. Instructed the user to mark our domain as trusted and resent the invoice manually.
+
+Ticket ID: 1012
+Issue: Request to permanently delete account and associated data (GDPR).
+Resolution: User identity was verified. Initiated the “Forget Me” procedure through the admin dashboard and informed the user that all data would be permanently deleted within 30 days in accordance with GDPR requirements.

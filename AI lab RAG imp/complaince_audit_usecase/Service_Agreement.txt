@@ -1,0 +1,46 @@
+MASTER SERVICE AGREEMENT
+Date: January 1, 2026
+
+
+1. TERMS AND TERMINATION
+
+1.1 Initial Term.** This Agreement shall begin on the Effective Date and remain in force for an initial duration of one (1) year (the “Initial Term”).
+1.2 Auto-Renewal.** Upon expiration of the Initial Term, the Agreement will automatically renew for additional one (1) year periods unless either party provides written notice of its intent not to renew at least sixty (60) days before the end of the then-current term.
+1.3 Termination for Cause.** Either party may terminate this Agreement immediately by written notice if the other party materially breaches any provision of this Agreement and does not remedy such breach within thirty (30) days after receiving notice of the breach.
+1.4 Effect of Termination.** Following termination, any unpaid amounts owed under this Agreement shall become due and payable immediately.
+
+2. FORCE MAJEURE
+
+2.1 Definition.** A “Force Majeure Event” refers to any circumstance beyond the reasonable control of the affected party, including but not limited to natural catastrophes, war, civil unrest, acts of terrorism, labor disputes, trade restrictions, or widespread health emergencies.
+2.2 Effect.** Neither party shall be responsible for any failure or delay in fulfilling its obligations under this Agreement (excluding payment obligations) when such failure or delay results from a Force Majeure Event.
+2.3 Termination.** If a Force Majeure Event persists for more than ninety (90) continuous days, either party may terminate this Agreement by providing written notice to the other party without incurring penalties.
+
+3. CONFIDENTIALITY
+
+3.1 Obligations.** The Receiving Party shall: (i) use Confidential Information solely for the purpose of performing its duties under this Agreement; and (ii) safeguard such information using at least the same level of protection it applies to its own confidential data, and in no case less than reasonable care.
+3.2 Exclusions.** Confidential Information shall not include information that: (a) becomes publicly available through no wrongdoing of the Receiving Party; or (b) is independently developed by the Receiving Party without reference to the Disclosing Party’s Confidential Information.
+3.3 Return of Materials.** Upon termination of this Agreement, the Receiving Party shall promptly return or securely destroy all Confidential Information in its possession.
+
+4. LIMITATION OF LIABILITY
+
+UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, REVENUE, OR ANTICIPATED SAVINGS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+THE MAXIMUM CUMULATIVE LIABILITY OF EITHER PARTY ARISING FROM THIS AGREEMENT SHALL NOT EXCEED THE TOTAL AMOUNT OF FEES PAID BY THE CUSTOMER DURING THE TWELVE (12) MONTH PERIOD PRIOR TO THE EVENT GIVING RISE TO THE CLAIM.
+
+5. INDEMNIFICATION
+5.1 By Provider.** The Provider agrees to defend, indemnify, and hold the Customer harmless from any third-party claims alleging that the Service infringes upon any copyright or patent rights.
+5.2 By Customer.** The Customer agrees to indemnify and hold the Provider harmless from any claims resulting from the Customer’s data or from the Customer’s use of the Service in violation of applicable laws or regulations.
+
+6. DATA PROTECTION (GDPR)
+
+6.1 Processing.** Both parties shall adhere to all relevant data protection and privacy laws, including the General Data Protection Regulation (GDPR), where applicable.
+6.2 Data Processing Agreement (DPA).** If the Customer processes personal data relating to the Service Provider’s users, the parties agree to enter into a separate Data Processing Agreement governing such processing activities.
+
+7. GOVERNING LAW AND DISPUTE RESOLUTION
+
+7.1 Governing Law.** This Agreement shall be governed and interpreted in accordance with the laws of the State of California, without regard to conflict-of-laws rules.
+7.2 Arbitration.** Any dispute, controversy, or claim arising from or relating to this Agreement shall be resolved through binding arbitration conducted under the rules of the American Arbitration Association (AAA).
+
+8. MISCELLANEOUS
+
+8.1 Assignment.** Neither party may transfer or assign this Agreement without the prior written consent of the other party, except in connection with a corporate merger, acquisition, or similar transaction.
+8.2 Entire Agreement.** This Agreement represents the complete understanding between the parties and replaces all prior discussions, negotiations, and agreements related to its subject matter.

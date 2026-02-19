@@ -1,0 +1,76 @@
+REMOTE WORK POLICY 2026
+Effective Date: January 1, 2026
+
+1. Eligibility
+All full-time employees who have successfully completed their probation are eligible to participate in the Hybrid Remote Work program. Contractors and interns may participate only with explicit approval from their manager.
+
+2. Hybrid Model
+Employees are required to work from the office two days per week (Tuesday and Thursday). The remaining three days may be performed remotely from any location within the country.
+
+3. Work Hours
+Mandatory core hours are from 10:00 AM to 3:00 PM local time. During this period, employees must be reachable on Slack and Zoom. Outside core hours, employees may follow flexible working schedules.
+
+4. Equipment Stipend
+Employees receive a one-time allowance of $1,000 to set up a home workspace. Eligible expenses include monitors, ergonomic furniture, or installation of high-speed internet.
+
+5. Data Security
+Remote work activities must be carried out exclusively on company-provided laptops. Accessing the internal VPN from personal devices is strictly forbidden.
+
+LEAVE POLICY
+1. Annual Leave
+Employees receive 20 days of paid annual leave each year. Up to 10 unused days may be carried forward to the following calendar year.
+
+2. Sick Leave
+Employees are granted 10 days of paid sick leave annually. A medical certificate must be submitted if the absence exceeds 3 consecutive days.
+
+3. Parental Leave
+Primary caregivers are entitled to 16 weeks of fully paid parental leave, while secondary caregivers are entitled to 6 weeks of fully paid leave.
+
+4. Bereavement Leave
+Up to 5 days of paid leave may be taken in the event of the death of an immediate family member.
+
+5. Sabbatical
+Employees who have completed 5 continuous years of service qualify for a 4-week paid sabbatical.
+
+HEALTH BENEFITS
+The organization offers comprehensive medical coverage under the HealthPlus 2026 plan.
+- Dental and vision coverage are included.
+- Mental wellness support provides up to 10 complimentary therapy sessions annually.
+- Gym expenses are reimbursed up to $50 per month.
+
+IT TROUBLESHOOTING
+1. VPN Connection Issues
+If VPN access fails, restart the Cisco AnyConnect application first. If the problem remains, check the validity of your 2FA token. Contact IT Support at extension 5555 if the issue is unresolved.
+
+2. Password Reset
+Passwords can be changed through the self-service portal at internal.portal.com/reset. New passwords must contain at least 12 characters and include special symbols.
+
+3. Software Installation
+Employees do not have administrative privileges. To install additional software, submit a request through the IT Service Desk portal. Approval is typically granted within 24 hours.
+
+PERFORMANCE REVIEWS
+1. Cycle
+Employee performance evaluations take place twice a year, in June and December.
+
+2. Ratings
+Performance is assessed on a 5-level scale ranging from 1 (Needs Improvement) to 5 (Exceeds Expectations).
+
+3. Promotions
+Promotion reviews are conducted in January. Employees must have received a rating of at least 4 in the most recent review to be considered.
+
+TRAVEL POLICY
+1. Booking
+All official business travel arrangements must be made using the corporate travel system (Concur).
+
+2. Per Diem
+Daily meal allowances are set at $75 for domestic trips and $100 for international travel.
+
+3. Flights
+Economy class is the default for flights shorter than 6 hours. Business class may be booked for flights exceeding 6 hours.
+
+CODE OF CONDUCT
+1. Workplace Harassment
+The company maintains a strict zero-tolerance stance on harassment. Incidents can be reported anonymously through the Ethics Hotline.
+
+2. Social Media
+Employees should not share confidential or sensitive company information on social platforms. When expressing personal views online, they should clarify that those opinions do not reflect the company’s position.

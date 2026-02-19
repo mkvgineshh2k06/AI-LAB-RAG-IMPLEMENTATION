@@ -1,0 +1,6 @@
+# Python dependencies for LLM Learning Models RAG Systems
+# Install with: pip install -r requirements.txt
+
+ollama
+numpy
+scikit-learn
